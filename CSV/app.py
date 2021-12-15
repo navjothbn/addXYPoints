@@ -35,7 +35,7 @@ st.markdown(
 
 def app():
 
-    st.write("Add Points from XY or from CSV file")
+#     st.write("Add Points from XY or from CSV file")
     # st.write("""Add your CSV file""")
 
     sample_url = "https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/world_cities.csv"
