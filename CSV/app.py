@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 
 hide_streamlit_style = """
             <style>
-            #MainMenu {visibility: hidden;}
+          
             footer {visibility: hidden;}
             </style>
             """
