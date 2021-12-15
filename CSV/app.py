@@ -22,7 +22,7 @@ st.markdown(
         padding-right: 2%;
         padding-left: 6%;
         padding-bottom: 0rem;
-        background-color: #ffffff;
+       
     }}
    
 </style>
