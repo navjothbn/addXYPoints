@@ -40,7 +40,10 @@ def app():
 
     sample_url = "https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/world_cities.csv"
     url = st.text_input("Enter URL:", sample_url)
-    m = leafmap.Map(locate_control=True, plugin_LatLngPopup=False)
+    boulder_coords = [17.6868,83.2185]
+
+
+    m = leafmap.Map(location = boulder_coords, zoom_start = 5)
 
     if url:
 
